@@ -1,5 +1,7 @@
 # OZmap Challenge: Construindo a Geolocalização do Futuro
 
+<img src="./image.png" alt=""/>
+
 ## Como Instalar e Executar Localmente
 
 Na Raiz do projeto execute após clonar o Repositorio
