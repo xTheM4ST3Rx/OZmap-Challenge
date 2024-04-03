@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es2020",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "sourceMap": true,
+    "esModuleInterop": true,
+},
+ "include": ["src/**/*.ts", ".env" ],
+  "types": ["reflect-metadata", "mocha"],
+  "exclude": [
+    "node_modules"
+  ]
+}
