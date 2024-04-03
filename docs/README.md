@@ -2,6 +2,10 @@
 
 <img src="./image.png" alt=""/>
 
+## Tecnologias usadas
+
+**OBS:** Neste teste onde eu teria algumas apis de comunicação fazendo CRUD, optei por uma arquitetura limpa, organizando as pastas seguindo os conceitos do NESTJS.
+
 ## Como Instalar e Executar Localmente
 
 Na Raiz do projeto execute após clonar o Repositorio
@@ -30,3 +34,7 @@ $ npm run dev
 📃 - http://localhost:3000/api-docs
 🎲 - Database Online !
 ```
+
+## Documentação com Swagger + Jsdocs
+
+<img src="./swagger.png" alt=""/>

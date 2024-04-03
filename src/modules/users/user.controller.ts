@@ -2,6 +2,10 @@ import { Request, Response } from 'express'
 import userService from './user.service'
 
 export class UserController {
+    async create(req: Request, res: Response) {
+        const users = await userService.create(req.body)
+        res.json(users)
+    }
     async findAll(req: Request, res: Response) {
         const users = await userService.findAll(
             Number(req.query.page),

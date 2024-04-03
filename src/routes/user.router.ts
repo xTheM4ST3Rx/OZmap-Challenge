@@ -65,4 +65,45 @@ router.get('/:id', userController.findOne)
  */
 router.put('/:id', userController.update)
 
+/**
+ * @swagger
+ * /users:
+ *   post:
+ *     summary: Cria um usuário
+ *     tags:
+ *      - Users
+ *     requestBody:
+ *       content:
+ *         application/json:
+ *           schema:
+ *             type: object
+ *             properties:
+ *               name:
+ *                 type: string
+ *     responses:
+ *       200:
+ *         description: Retorna um objeto JSON com a mensagem "ID"
+ */
+router.post('/', userController.create)
+
+/**
+ * @swagger
+ * /users/{id}:
+ *   delete:
+ *     summary: Deleta um usuário pelo ID
+ *     tags:
+ *      - Users
+ *     parameters:
+ *       - in: path
+ *         name: id
+ *         required: true
+ *         description: ID do usuário
+ *         schema:
+ *           type: string
+ *     responses:
+ *       200:
+ *         description: Retorna um objeto JSON com a mensagem "ID"
+ */
+//router.delete('/:id', userController.remove)
+
 export default router
