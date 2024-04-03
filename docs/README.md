@@ -22,8 +22,9 @@ $ npm run dev
 
 ## Resultado esperado pelo console no terminal:
 
-<div style="display:flex; flex-direction:column; background: black; padding:5px; border-radius:5px;">
+```cmd
 🎉 - Servidor Online !
-<a style="color: blue; cursor:pointer;">🔗 - http://localhost:3000</a>
-<a style="color: yellow; cursor:pointer;">📃 - http://localhost:3000/api-docs</a>
-<span style="color: purple">🎲 - Database Online !</span>
+🔗 - http://localhost:3000
+📃 - http://localhost:3000/api-docs
+🎲 - Database Online !
+```
