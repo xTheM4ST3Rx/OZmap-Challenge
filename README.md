@@ -1,6 +1,6 @@
 # OZmap Challenge: Construindo a Geolocalização do Futuro
 
-<img src="./image.png" alt=""/>
+<img src="./docs/image.png" alt=""/>
 
 ## Tecnologias usadas
 
@@ -37,4 +37,4 @@ $ npm run dev
 
 ## Documentação com Swagger + Jsdocs
 
-<img src="./swagger.png" alt=""/>
+<img src="./docs/swagger.png" alt=""/>
